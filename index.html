@@ -15,7 +15,7 @@
 
 <body>
     <!--Navbar Inicio-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
         <div class="container-fluid mx-2">
             <a class="navbar-brand" href="index.html">Luis Subiabre</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,19 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0  ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="#Portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
+                        <a class="nav-link" href="#Educacion">Educación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link" href="#Experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -68,57 +68,56 @@
     </section>
 
 
-    <section id="porfolio">
+    <section id="Portafolio">
         <div class="container ">
             <div class="box">
 
-            
-                    <div class="col-12 col-lg-6 m-15px-tb">
-                        <div class="section-title">
-                            <h2>Portafolio</h2>
-                        </div>
+
+                <div class="col-12 col-lg-6 m-15px-tb">
+                    <div class="section-title">
+                        <h2>Portafolio</h2>
                     </div>
-        
+                </div>
+
                 <div class="row mx-2">
                     <div class="col-12 col-lg-6">
                         <div class="card my-3">
                             <img src="./assets/img/portafolio-1.png" class="card-img-top" alt="Thanos número 1">
                             <div class="card-body">
-                              <h5 class="text-card-title ">Thanos #1</h5>
-                              <p class="text-card-description">El titán loco, Thanos, busca un nuevo propósito después de años de
-                                devastación y conquista. </p>
-                              <p class="text-card-tag"><i class="fa-solid fa-tag"></i> Marvel</p>
-                              <hr>
-                              <div class="d-flex justify-content-end">
-                                <p>
-                                  <s class="px-2 text-price-light">$15.000 </s>
-                                  <strong class="text-price-medium">$12.000</strong>
-                                </p>
-                              </div>
+                                <h5 class="text-card-title ">Comic Store</h5>
+                                <p class="text-card-description">Sitio Web construido con HTML, CSS y bootstrap </p>
+                                <hr>
+                                <div class="d-flex justify-content-end">
+                                    <p>
+                                        <a href="https://github.com/LuisSubiabre/comic-store" target="_blank"><i
+                                                class="fab fa-2x mx-2 fa-github"></i></a>
+                                    </p>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="card my-3">
-                            <img src="./assets/img/portafolio-1.png" class="card-img-top" alt="Thanos número 1">
+                            <img src="./assets/img/portafolio-2.png" class="card-img-top" alt="Thanos número 1">
                             <div class="card-body">
-                              <h5 class="text-card-title ">Thanos #1</h5>
-                              <p class="text-card-description">El titán loco, Thanos, busca un nuevo propósito después de años de
-                                devastación y conquista. </p>
-                              <p class="text-card-tag"><i class="fa-solid fa-tag"></i> Marvel</p>
-                              <hr>
-                              <div class="d-flex justify-content-end">
-                                <p>
-                                  <s class="px-2 text-price-light">$15.000 </s>
-                                  <strong class="text-price-medium">$12.000</strong>
-                                </p>
-                              </div>
+                                <h5 class="text-card-title ">Iguana Page</h5>
+                                <p class="text-card-description">Sitio Web construido con HTML, CSS y Flexbox. </p>
+                                <hr>
+                                <div class="d-flex justify-content-end">
+                                    <p>
+                                        <a href="https://github.com/LuisSubiabre" target="_blank"><i
+                                                class="fab fa-2x mx-2 fa-github"></i></a>
+                                    </p>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-12 my-3">
                         <div class="d-flex justify-content-center">
-                            <button type="button" class="btn btn-info">Ver todos los proyectos</button>                    </div>
+                            <a href="portafolio.html">
+                                <button type="button" class="btn btn-info">Ver todos los proyectos</button>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -126,7 +125,7 @@
         </div>
     </section>
 
-    <section class="section gray-bg" id="resume">
+    <section class="section gray-bg" id="Educacion">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 m-15px-tb">
@@ -159,34 +158,25 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 m-15px-tb">
+                <div class="col-lg-6 m-15px-tb" id="Experiencia">
                     <div class="box">
                         <div class="section-title">
                             <h2>Experiencia</h2>
                         </div>
                         <ul>
                             <li>
-                                <div class="icon">
-                                    <i class="fas fa-briefcase"></i>
-                                </div>
                                 <span class="time">2019 - Present</span>
                                 <h5>Art Director - Facebook Inc</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                             </li>
                             <li>
-                                <div class="icon">
-                                    <i class="fas fa-briefcase"></i>
-                                </div>
                                 <span class="time">2019 - Present</span>
                                 <h5>Art Director - Facebook Inc</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua.</p>
                             </li>
                             <li>
-                                <div class="icon">
-                                    <i class="fas fa-briefcase"></i>
-                                </div>
                                 <span class="time">2019 - Present</span>
                                 <h5>Art Director - Facebook Inc</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -200,7 +190,7 @@
     </section>
 
     <!--Footer inicio-->
-    <section class="container-fluid py-4 bg-dark text-light">
+    <section class="container-fluid py-4 text-light bg-footer">
         <div class="container">
             <p class="text-center text-footer">© 2024 Luis Subiabre Salviat</p>
         </div>
