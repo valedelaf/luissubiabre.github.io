@@ -7,6 +7,13 @@
     position: relative;
 }
 
+h2 {
+  font-weight: 900;
+  color: #620063;
+  font-size: 2rem;
+
+}
+
 .section-title h2 {
     font-weight: 700;
     color: #620063;
@@ -14,30 +21,33 @@
     border-left: 5px solid #d100d9;
     padding-left: 15px;
 }
+.porfolio{
+    padding: 30px;
 
-.resume-box {
+}
+.box {
   background: #ffffff;
   box-shadow: 0 0 1.25rem rgba(96, 6, 78, 0.08);
   border-radius: 10px;
 }
 
-.resume-box ul {
+.box ul {
   margin: 0;
   padding: 30px 20px;
   list-style: none;
 }
-.resume-box hr {
+.box hr {
  
   color: gray;
   margin: 10px;
 
 }
-.resume-box h5 {
+.box h5 {
   font-weight: 700;
   color: #ad00b1;
   font-size: 25px;
 }
-.resume-box span {
+.box span {
   font-weight: 700;
   color: #d100d9;
   font-size: 15px;
@@ -48,7 +58,4 @@
   color: #ad00b1;
   line-height: 40px;
   background: #ffffff;
-
-
-
 }
