@@ -18,6 +18,7 @@ body{
 }
 .img-perfil{
     width: 15rem;
+    border-radius: 50%;
 }
 
 .bg-navbar, .bg-footer{
